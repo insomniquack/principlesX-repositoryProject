@@ -1,4 +1,4 @@
-import React, {useState}from 'react';
+import React, {useState, useEffect}from 'react';
 
 const Counter = () => {
   let [counter, setCounter] = useState(0)
@@ -13,6 +13,9 @@ let minusOne = () =>{
   console.log(counter)
 }
 
+useEffect(() => {
+
+})
 
   return (
     <div>
