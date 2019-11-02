@@ -4,14 +4,15 @@ import ReactDOM from 'react-dom';
 // import Title from './Title';
 import Counter from './counter';
 import Calculator from './calculator'
+import NoteApp from "./NoteApp"
 
 let root = document.getElementById('root')
-let name = "joshua"
-let superman = {
-  name:"clarke kent",
-  age:37,
-  weight:85,
-}
+// let name = "joshua"
+// let superman = {
+//   name:"clarke kent",
+//   age:37,
+//   weight:85,
+// }
 
 // let DisplaySuperhero = (properties) => {
 //   return ( 
@@ -22,7 +23,8 @@ let superman = {
 //   </>
 //   )
 // }
-ReactDOM.render(<Calculator/>,root);
+
+ReactDOM.render(<NoteApp/>, root);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
