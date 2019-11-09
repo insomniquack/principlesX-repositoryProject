@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 // import Title from './Title';
 import Counter from './counter';
 import Calculator from './calculator'
-import NoteApp from "./NoteApp"
+import NoteApp from "./NoteApp";
+import Choices from "./Choice";
+
 
 let root = document.getElementById('root')
 // let name = "joshua"
@@ -24,7 +26,7 @@ let root = document.getElementById('root')
 //   )
 // }
 
-ReactDOM.render(<NoteApp/>, root);
+ReactDOM.render(<Choices/>, root);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
